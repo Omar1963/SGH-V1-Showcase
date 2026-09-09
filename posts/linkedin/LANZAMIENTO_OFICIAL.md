@@ -37,7 +37,7 @@ Nuestro Copiloto de Operaciones y Cumplimiento (Kernel IA). VIGÍA no es un chat
 Todo bajo una arquitectura 100% SOBERANA y Self-Hosted: los datos sensibles de nuestros clientes nunca tocan nubes públicas de terceros.
 
 🔗 Publicamos nuestro Showcase Oficial y arquitectura en GitHub:
-👉 https://github.com/Omar1963/SGH-V1-Marketing
+👉 https://github.com/Omar1963/SGH-V1-Showcase
 
 A los directores de operaciones, gerentes de legales, compliance officers y líderes de industria:
 ¿Su organización controla el cumplimiento por reacción a los problemas... o por gobernanza preventiva?

@@ -208,9 +208,10 @@ SGH-V1 es **100% Self-Hosted** en servidor dedicado corporativo:
 
 **Contacto Institucional:**
 - **Dirección de Proyecto:** Omar A. Domínguez — *OMARDOM Soluciones Digitales*
-- **Portal Corporativo:** [https://app.sistglupo.com](https://app.sistglupo.com)
-- **LinkedIn:** [Perfil Oficial de Omar Domínguez](https://www.linkedin.com/in/omar-dominguez-sghv1/)
-- **Email:** contacto@sistglupo.com
+- **Portal Corporativo:** [SGL - O2 Plataforma segura para la gestión de habilitaciones
+y cumplimiento normativo ](https://app.sistglupo.com/login)
+- **LinkedIn:** [Perfil Oficial de Omar Domínguez](www.linkedin.com/in/omar-domínguez-0aa1aa202)
+- **Email:** omar.a.dominguez@outlook.com.ar
 
 ---
 

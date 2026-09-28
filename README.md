@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/Facturaci%C3%B3n-ARCA%20%2F%20AFIP%20(CAE%20Online)-blueviolet?style=for-the-badge&logo=curseforge" alt="ARCA" />
   <img src="https://img.shields.io/badge/Materiales%20Controlados-ANMAC%20%2F%20Explosivos%20(Ley%2020.429)-darkred?style=for-the-badge&logo=target" alt="ANMAC" />
   <img src="https://img.shields.io/badge/Comando%20Operativo-Dashboard%20Central%20(4%20M%C3%B3dulos)-0284c7?style=for-the-badge&logo=speedtest" alt="Dashboard" />
-  <img src="https://img.shields.io/badge/Copiloto%20IA-VIGÍA%20Kernel%20IA%20(8%20Pilares)-06b6d4?style=for-the-badge&logo=openai" alt="VIGÍA" />
+  <img src="https://img.shields.io/badge/Copiloto%20IA-V.I.G.I.A%20Kernel%20IA%20(8%20Pilares)-06b6d4?style=for-the-badge&logo=openai" alt="V.I.G.I.A." />
   <img src="https://img.shields.io/badge/Arquitectura-100%25%20Self--Hosted-blue?style=for-the-badge&logo=server" alt="Self-Hosted" />
   <img src="https://img.shields.io/badge/Backend-FastAPI%20%7C%20Python%203.12-009688?style=for-the-badge&logo=fastapi" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Frontend-React%2019%20%7C%20Vite%20%7C%20Tailwind-61DAFB?style=for-the-badge&logo=react" alt="React" />
@@ -29,40 +29,40 @@
 | :--- | :---: | :--- |
 | **Catálogo Maestro de Servicios** | **Servicios Activos** | Habilitaciones Legales, Medicina Laboral (PsyMed), Gobierno Corporativo, Mentoría Técnica y Trámites Especiales. |
 | **Matrices Dinámicas de Trámites** | **Plantillas Configuradas** | Checklists automatizados y no retroactivos por combinación de Entidad, Rol y Tipo de Gestión. |
-| **Central de Comando Operativo** | **Dashboard 4x4 en Tiempo Real** | Seguimiento unificado para **Mesa de Entradas (Sala de Espera)**, **Empresas & Plantas/Sedes**, **Personal & Legajos** y **Gesti[...]
+| **Central de Comando Operativo** | **Dashboard 4x4 en Tiempo Real** | Seguimiento unificado para **Mesa de Entradas (Sala de Espera)**, **Empresas & Plantas/Sedes**, **Personal & Legajos** y **Gestión Comercial**. |
 | **Dimensiones de Gestión** | **4 Entidades Simultáneas** | Control normativo unificado sobre **Personal**, **Empresas**, **Objetivos/Plantas** y **Flotas de Vehículos**. |
-| **Ámbitos Jurisdiccionales Auditados** | **9 Jurisdicciones Activas** | CABA (DGSP), PBA (Ley 12.297), ANMAC / RENAR, PNA (Prefectura), PSA (Aeroportuaria), AUSA (Vial), Nacional (RNR) y Medici[...]
-| **Módulo Hipersensible ANMAC** | **Ley Nacional N° 20.429** | Polvorines quinquenales, importación de explosivos, insumos de fractura Oil & Gas (tubing cutters, cargas huecas) y habilitación[...]
+| **Ámbitos Jurisdiccionales Auditados** | **9 Jurisdicciones Activas** | CABA (DGSP), PBA (Ley 12.297), ANMAC / RENAR, PNA (Prefectura), PSA (Aeroportuaria), AUSA (Vial), Nacional (RNR) y Medicina Laboral. |
+| **Módulo Hipersensible ANMAC** | **Ley Nacional N° 20.429** | Polvorines quinquenales, importación de explosivos, insumos de fractura Oil & Gas (tubing cutters, cargas huecas) y habilitación UPSV. |
 | **Integración Fiscal Oficial** | **ARCA (ex AFIP) en Vivo** | Consulta de padrón CUIT en tiempo real, emisión de Facturas A/B y Notas de Crédito con CAE y código QR oficial. |
 
 ---
 
 ## 🌟 Visión, Propósito y Adaptabilidad Universal
 
-El **SGH-V1 (Sistema de Gestión de Habilitaciones - Versión 1 / SGL-O2)** es una plataforma de software de nivel industrial diseñada para gobernar la alta complejidad operativa, legal, regulato[...]
+El **SGH-V1 (Sistema de Gestión de Habilitaciones - Versión 1 / SGL-O2)** es una plataforma de software de nivel industrial diseñada para gobernar la alta complejidad operativa, legal, regulatoria y documental de organizaciones. Su propósito es garantizar cumplimiento, trazabilidad y continuidad operativa en contextos de alta exigencia.
 
 ### 🎯 El Doble Horizonte de Mercado de SGH-V1:
 
 ```text
-┌───────────────────────────────────────────────────────────────────[...]
+┌─────────────────────────────────────────────────────────────────┐
 │                    EL DOBLE HORIZONTE DE MERCADO DE SGH-V1                    │
-├───────────────────────────────────────┬───────────────────────────[...]
-│  1. QUIENES NECESITAN CONTROLAR       ���  2. QUIENES DESEAN CONTROLAR          │
+├───────────────────────────────────────┬────────────────────────────┤
+│  1. QUIENES NECESITAN CONTROLAR       │  2. QUIENES DESEAN CONTROLAR          │
 │     (Cumplimiento Bajo Presión)       │     (Gobernanza Proactiva & Calidad)  │
 │  - Seguridad Privada y Caudales       │  - Logística de Cargas Peligrosas     │
 │  - Yacimientos Oil & Gas (Fractura)   │  - Industria Farmacéutica & Química   │
 │  - Minería y Canteras (Explosivos)    │  - Constructoras & Obras de Gran Porte│
 │  - Sedes Portuarias e Hidrovías (PNA) │  - Sanatorios & Complejos de Salud    │
-│                                       │                                       │
+│                                       │                                      │
 │  "Empresas bajo constante fiscalización│  "Organizaciones que buscan elevar sus│
 │  que no pueden arriesgarse a una      │  estándares, certificar normas ISO y  │
 │  clausura, suspensión o multa federal"│  no encuentran herramientas a medida" │
-└───────────────────────────────────────┴───────────────────────────[...]
+└───────────────────────────────────────┴────────────────────────────┘
 ```
 
 **SGH-V1 fue forjado resolviendo los escenarios regulatorios más extremos del país:**  
 Desde autorizaciones de comercio exterior de explosivos y polvorines petroleros hasta miles de credenciales individuales con portación de armas y exámenes psicofísicos rigurosos.  
-Esa misma robustez arquitectónica —basada en **matrices dinámicas de requisitos y checklists no retroactivos**— le permite **adaptarse de forma natural a cualquier industria que exija gobern[...]
+Esa misma robustez arquitectónica —basada en **matrices dinámicas de requisitos y checklists no retroactivos**— le permite **adaptarse de forma natural a cualquier industria que exija gobernanza, control y seguridad**.
 
 ---
 
@@ -103,32 +103,32 @@ Esa misma robustez arquitectónica —basada en **matrices dinámicas de requisi
 
 ---
 
-## 🛡️ VIGÍA — Verificador Inteligente de Gestiones, Incidencias y Acciones (Kernel IA)
+## 🛡️ V.I.G.I.A. — Verificador Inteligente de Gestiones, Incidencias y Acciones (Kernel IA)
 
 <p align="center">
-  <img src="assets/vigia/vigia-avatar.png" alt="VIGÍA — Copiloto Oficial SGH-V1" width="170" style="border-radius: 28px; box-shadow: 0 0 35px rgba(6, 182, 212, 0.45); border: 2px solid rgba(6,[...]
+  <img src="assets/vigia/vigia-avatar.png" alt="V.I.G.I.A. — Copiloto Oficial SGH-V1" width="170" style="border-radius: 28px; box-shadow: 0 0 35px rgba(6, 182, 212, 0.45); border: 2px solid rgba(6,182,212,0.65);" />
 </p>
 <p align="center">
-  <b>VIGÍA</b> es la inteligencia artificial operativa y copiloto institucional de <b>SGH-V1</b>.<br>
+  <b>V.I.G.I.A.</b> es la inteligencia artificial operativa y copiloto institucional de <b>SGH-V1</b>.<br>
   <i>Elegante, no-invasiva y ultra-precisa: audita el marco legal, asiste al operador humano en tiempo real y resuelve alertas a escala con cero fricción.</i>
 </p>
 
-### 🎯 La Ley de Oro de VIGÍA: "Cero Fricción" (Zero Friction)
-> **"VIGÍA NUNCA DEBE SER UN MERO CARTEL INFORMATIVO QUE OBLIGA AL USUARIO A SALIR A BUSCAR.  
-> TODA ALERTA DE VIGÍA CONDUCE DIRECTAMENTE A LA SOLUCIÓN O ENTREGA EL INSTRUMENTO PARA RESOLVER EN EL ACTO."**
+### 🎯 La Ley de Oro de V.I.G.I.A.: "Cero Fricción" (Zero Friction)
+> **"V.I.G.I.A. NUNCA DEBE SER UN MERO CARTEL INFORMATIVO QUE OBLIGA AL USUARIO A SALIR A BUSCAR.  
+> TODA ALERTA DE V.I.G.I.A. CONDUCE DIRECTAMENTE A LA SOLUCIÓN O ENTREGA EL INSTRUMENTO PARA RESOLVER EN EL ACTO."**
 
 ### ⚡ Capacidades Principales y Flujos Operativos:
 
 1. **Resolución de Alertas a Escala (Estrategia Óptima A + C):**
-   Ante contingencias masivas (ej. 300 legajos con perfil incompleto o empresas observadas), VIGÍA no satura al operador:
-   - **Opción A (Filtro Inteligente en 1 Clic):** Aísla de inmediato en la grilla (`/personas?status=INCOMPLETOS` o `/empresas?status=OBSERVADAS`) los registros observados para corrección ági[...]
-   - **Opción C (Planilla de Subsanación Masiva):** Si el volumen es elevado ($\ge 50$ registros), VIGÍA ofrece descargar con 1 clic una planilla CSV pre-formateada con **UTF-8 BOM (`\uFEFF`)*[...]
+   Ante contingencias masivas (ej. 300 legajos con perfil incompleto o empresas observadas), V.I.G.I.A. no satura al operador:
+   - **Opción A (Filtro Inteligente en 1 Clic):** Aísla de inmediato en la grilla (`/personas?status=INCOMPLETOS` o `/empresas?status=OBSERVADAS`) los registros observados para corrección ágil.
+   - **Opción C (Planilla de Subsanación Masiva):** Si el volumen es elevado ($\ge 50$ registros), V.I.G.I.A. ofrece descargar con 1 clic una planilla CSV pre-formateada con **UTF-8 BOM (`\uFEFF`)** para corrección masiva en segundos.
    - **Accionabilidad Directa:** Toda sugerencia incorpora botones directos: `[ 📝 Ficha Personal ]`, `[ 🏢 Ver Ficha Empresa ]`, `[ 🔍 Filtrar Observados ]` y `[ 📥 Exportar Planilla ]`.
 
 2. **Inspector Cero-Invasivo (HUD Holográfico & Scanning):**
    - Atajo global: `F1` o `Ctrl + Espacio` en cualquier parte del sistema.
-   - Activando el modo **Inspector**, el operador posa el mouse sobre cualquier campo anotado con `data-kernel-cell="..."` y VIGÍA proyecta un halo cian holográfico.
-   - Al hacer clic, abre instantáneamente la pestaña **Celdas & Inputs** enseñando: qué es el campo, qué formato estricto exige, qué impacto normativo tiene y qué roles RBAC tienen permiso[...]
+   - Activando el modo **Inspector**, el operador posa el mouse sobre cualquier campo anotado con `data-kernel-cell="..."` y V.I.G.I.A. proyecta un halo cian holográfico.
+   - Al hacer clic, abre instantáneamente la pestaña **Celdas & Inputs** enseñando: qué es el campo, qué formato estricto exige, qué impacto normativo tiene y qué roles RBAC tienen permiso para actuar.
 
 3. **Los 8 Pilares Cognitivos en Tiempo Real:**
    - **Pilar 1 - Sector & SOP:** Contexto del módulo activo y Procedimiento Operativo Estándar paso a paso.
@@ -159,7 +159,7 @@ A diferencia de herramientas limitadas a un simple padrón de empleados, SGH-V1 
 
 ### 3. 💥 Módulo de Materiales Controlados (Ley Nacional N° 20.429 / ANMAC)
 - **Polvorines Quinquenales:** Control de vigencias a 5 años, capacidades de almacenamiento en kilos/toneladas de explosivos y detonadores.
-- **Comercio Exterior:** Formularios FDT 7, autorizaciones de importación/exportación de explosivos e insumos de fractura hidráulica petrolera (*Tubing Cutters*, cargas huecas, cordón detonan[...]
+- **Comercio Exterior:** Formularios FDT 7, autorizaciones de importación/exportación de explosivos e insumos de fractura hidráulica petrolera (*Tubing Cutters*, cargas huecas, cordón detonante).
 - **Servicios de Voladura:** Inscripción y control de UPSV para minería y canteras.
 
 ### 4. 🩺 Salud Ocupacional & Medicina Laboral (PsyMed)
@@ -179,7 +179,7 @@ A diferencia de herramientas limitadas a un simple padrón de empleados, SGH-V1 
 
 | Capa | Tecnología | Características Clave |
 | :--- | :--- | :--- |
-| **Frontend** | **React 19 + Vite + Tailwind CSS** | SPA modular, reactiva, ultrarrápida, Dashboard 4x4 y consola de copiloto VIGÍA. |
+| **Frontend** | **React 19 + Vite + Tailwind CSS** | SPA modular, reactiva, ultrarrápida, Dashboard 4x4 y consola de copiloto V.I.G.I.A. |
 | **Backend** | **FastAPI (Python 3.12)** | API asíncrona de alto rendimiento, OpenAPI interactivo y arquitectura desacoplada por dominios. |
 | **Integración Fiscal** | **ARCA / AFIP Web Services** | Criptografía X.509 (CMS/PKCS#7), obtención de CAE y emisión en tiempo real. |
 | **Persistencia** | **PostgreSQL 16 + SQLAlchemy 2.0** | Modelado estricto con claves foráneas, auditoría forense inmutable y migraciones con Alembic. |
@@ -192,7 +192,7 @@ A diferencia de herramientas limitadas a un simple padrón de empleados, SGH-V1 
 
 SGH-V1 es **100% Self-Hosted** en servidor dedicado corporativo:
 - **Cero dependencia de nubes públicas de terceros** (sin almacenamiento en Vercel, Supabase o Railway).
-- **Control y Soberanía Total:** Toda la base de datos relacional, los legajos médicos confidenciales, los registros balísticos y las credenciales fiscales residen en infraestructura soberana [...]
+- **Control y Soberanía Total:** Toda la base de datos relacional, los legajos médicos confidenciales, los registros balísticos y las credenciales fiscales residen en infraestructura soberana y bajo control directo de la organización.
 
 ---
 
@@ -208,8 +208,7 @@ SGH-V1 es **100% Self-Hosted** en servidor dedicado corporativo:
 
 **Contacto Institucional:**
 - **Dirección de Proyecto:** Omar A. Domínguez — *OMARDOM Soluciones Digitales*
-- **Portal Corporativo:** [SGL - O2 Plataforma segura para la gestión de habilitaciones
-y cumplimiento normativo ](https://app.sistglupo.com/login)
+- **Portal Corporativo:** [SGL - O2 Plataforma segura para la gestión de habilitaciones y cumplimiento normativo](https://app.sistglupo.com/login)
 - **LinkedIn:** [Perfil Oficial de Omar Domínguez](www.linkedin.com/in/omar-domínguez-0aa1aa202)
 - **Email:** omar.a.dominguez@outlook.com.ar
 

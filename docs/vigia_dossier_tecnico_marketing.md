@@ -29,7 +29,7 @@
   - **Backend / Código / Contratos:** Técnicamente denominado **`KernelIA`** / **`kernel_ia`** (servicios, caché y contratos de API), garantizando rigurosidad ingenieril y tipado estricto.
 
 ### 1.2. El Propósito Fundamental en Industrias Hiper-Reguladas
-En industrias como la **Seguridad Corporativa, Minería, Oil & Gas, Transporte de Caudales y Polvorines ANMAC**, el costo del error humano es inadmisible: una credencial de vigilador vencida, un polvorín sin habilitación quinquenal vigente o un legajo médico sin apto PsyMed derivan en **clausuras judiciales, multas federales millonarias y paralización total de servicios**.
+En industrias como la **Seguridad Corporativa, Minería, Oil & Gas, Transporte de Caudales y Polvorines ANMAC**, el costo del error humano es inadmisible: una credencial vencida de una persona con rol asignado, un polvorín sin habilitación quinquenal vigente o un legajo médico sin apto PsyMed derivan en **clausuras judiciales, multas federales millonarias y paralización total de servicios**.
 
 **V.I.G.I.A. no es un chatbot conversacional genérico.** Es un **árbitro normativo permanente** que opera integrado en cada pantalla de SGH-V1, previniendo contingencias antes de que ocurran y transformando la incertidumbre regulatoria en certezas operativas.
 
@@ -55,7 +55,7 @@ En industrias como la **Seguridad Corporativa, Minería, Oil & Gas, Transporte d
 
 Las notificaciones huérfanas degradan la productividad. V.I.G.I.A. implementa contratos donde **toda sugerencia o alerta incluye una acción directa (`accion_url` y `accion_tipo`)**.
 
-### 3.2. Estrategia Ante Escenarios de Gran Escala (ej. 300 Vigiladores Incompletos)
+### 3.2. Estrategia Ante Escenarios de Gran Escala (ej. 300 Legajos de Personal Incompletos)
 Cuando un cliente corporativo o consultora ingresa un lote voluminoso donde V.I.G.I.A. dictamina observaciones, el sistema despliega la **Estrategia Combinada A + C**:
 
 ```text
@@ -136,7 +136,7 @@ Todo diagnóstico proyectado por V.I.G.I.A. se desglosa en 8 pilares cardinales 
 
 ### 5.1. Inspector Cero-Invasivo (`data-kernel-cell`)
 - **Prohibición de Wrappers JSX:** Queda descartado envolver inputs en componentes pesados que rompen la grilla CSS o los layouts responsivos de Tailwind CSS.
-- **Detección Holográfica:** Mediante una capa de inspección superpuesta, el usuario activa el modo inspección y posa el mouse sobre cualquier input. V.I.G.I.A. proyecta un halo cian holográfico interactivo `[ ⌖ DNI del Vigilador (Clic para explicar) ]`. Al hacer clic, abre automáticamente la pestaña **Celdas & Inputs** enseñando formato legal, validaciones y permisos RBAC.
+- **Detección Holográfica:** Mediante una capa de inspección superpuesta, el usuario activa el modo inspección y posa el mouse sobre cualquier input. V.I.G.I.A. proyecta un halo cian holográfico interactivo `[ ⌖ DNI de la Persona (Clic para explicar) ]`. Al hacer clic, abre automáticamente la pestaña **Celdas & Inputs** enseñando formato legal, validaciones y permisos RBAC.
 
 ### 5.2. Evaluación Asíncrona en Paralelo (<180ms Backend SLA)
 Los evaluadores de dominio corren en paralelo sin bloquear el loop principal de eventos de FastAPI mediante `asyncio.gather(..., return_exceptions=True)`. Si un evaluador encuentra una anomalía, los restantes continúan y el sistema entrega un dictamen holístico sin caídas.
@@ -146,18 +146,64 @@ Para proteger la base de datos PostgreSQL de saturación ante consultas repetiti
 
 ---
 
-## 👑 6. La Cuarta Ley de Oro de SGH-V1: El Espejo Cognitivo
+<a id="integridad-operativa"></a>
 
-Junto a las Tres Leyes de Oro del NOC-PANEL (Espejo Absoluto, Cero Rollbacks Silenciosos, Servidor Limpio), rige de forma permanente la **Cuarta Ley de Oro**:
+## 🛡️ 6. Integridad Operativa y de Gestión de la Plataforma
 
-> ### ⚡ "TODO CAMBIO, NUEVO MODAL, RUTA, FORMULARIO O INSTRUMENTO DENTRO DE SGH-V1 DEBE SINCRONIZARSE OBLIGATORIAMENTE CON V.I.G.I.A. ANTES DE CONSIDERARSE TERMINADO."
+> ### *«Practicamos el mismo rigor que exigimos.»*
+> Una plataforma que gobierna el cumplimiento normativo de sus clientes tiene que gobernarse a sí misma con la misma disciplina: reglas explícitas, controles verificables y trazabilidad de cada decisión.
 
-### Protocolo de Sincronización Mandatorio:
-1. **Inputs y Celdas:** Anotar con `data-kernel-cell="..."` y registrar en el diccionario de celdas del sector.
-2. **Rutas Nuevas:** Mapear en el índice de sectores de V.I.G.I.A. con carga diferida propia.
-3. **Nuevas Reglas de Negocio:** Incorporar al procedimiento SOP y al evaluador de dominio correspondiente.
-4. **Mutaciones de Estado:** Invalidar caché volátil en endpoints de escritura.
-5. **Auditoría Mandatoria para Agentes de IA:** Todo reporte final de desarrollo debe certificar el cumplimiento del Espejo Cognitivo de V.I.G.I.A.
+La integridad de SGH-V1 no depende de la buena voluntad de quien lo opera. Está sostenida por **leyes de operación** que las propias herramientas hacen cumplir: si una condición no se verifica, la operación se detiene.
+
+### 6.1. Las Leyes de Oro de la operación
+
+| Ley | Qué establece | Qué garantiza al cliente |
+| :--- | :--- | :--- |
+| **1. Espejo Absoluto** | La versión en producción es idéntica a la versión revisada y aprobada, y a la del entorno de desarrollo. | Lo que corre es exactamente lo que se auditó. Sin cambios ocultos ni versiones "fantasma". |
+| **2. Cero Rollbacks Silenciosos** | Ningún mecanismo automático modifica ni revierte producción sin la confirmación de un operador humano. | Ante un error, el sistema se detiene e informa. Nada cambia a espaldas del responsable. |
+| **3. Servidor Limpio** | El servidor productivo aloja únicamente lo necesario para operar: ni documentación, ni herramientas de desarrollo, ni material de trabajo. | Menos superficie de ataque y menos puntos de falla. La regla no es solo escrita: las herramientas de despliegue se niegan a avanzar si no se cumple. |
+| **4. Espejo Cognitivo** | Ninguna pantalla, campo, ruta o regla de negocio nueva se considera terminada hasta que V.I.G.I.A. sabe explicarla y evaluarla. | La asistencia al usuario nunca queda desactualizada respecto del sistema real. |
+
+### 6.2. Verificación de integridad en cada actualización
+
+Cada despliegue atraviesa controles automáticos **antes y después** de aplicarse:
+
+- **Verificación previa:** si las condiciones de seguridad del servidor no se cumplen, la actualización ni siquiera comienza.
+- **Verificación de integridad de 7 puntos posterior al despliegue:** servicio activo, disponibilidad de la API, respuesta del acceso de usuarios, protección de los endpoints ante accesos sin credenciales, disponibilidad de la interfaz y registros del sistema sin errores críticos.
+- **Corte seguro:** si una verificación de seguridad falla, el proceso se detiene antes de compilar o reiniciar; si falla una verificación de integridad, se informa exactamente qué falló. En ningún caso se aplica una reversión automática: decide el operador.
+
+### 6.3. Intervenciones por etapas, con aprobación humana
+
+Toda intervención estructural sigue el mismo protocolo, sea realizada por el equipo o asistida por herramientas de IA:
+
+1. **Diagnóstico** con verificaciones de solo lectura.
+2. **Respaldo previo** del estado y de los datos afectados.
+3. **Cambio** aplicado por etapas, cada una con **aprobación humana explícita**.
+4. **Comprobación** del funcionamiento y de la coherencia entre entornos.
+5. **Registro** de la decisión: problema, alternativas evaluadas, decisión tomada y resultado.
+
+### 6.4. Confidencialidad operativa (Zero-Leak)
+
+- Ninguna credencial queda escrita en scripts, registros de auditoría ni comandos de operación.
+- Los documentos de los clientes (legajos, DNI, certificados) residen solo en el almacenamiento productivo y nunca se incorporan a repositorios de código.
+- Los materiales públicos utilizan exclusivamente datos ilustrativos.
+
+### 6.5. Trazabilidad de las decisiones técnicas
+
+Cada cambio de arquitectura, cada incidente y cada mejora se documentan en un registro formal de decisiones. Una decisión sin registro se considera **no consolidada**. Así, cualquier auditoría puede reconstruir por qué el sistema es como es.
+
+### 6.6. Alineación con prácticas reconocidas
+
+| Control de SGH-V1 | Práctica de referencia |
+| :--- | :--- |
+| Espejo Absoluto e intervenciones por etapas con aprobación humana | Control de cambios (ISO 9001 §8.5.6; ISO/IEC 27001 Anexo A 8.32) |
+| Respaldos diarios con verificación de integridad | Copias de respaldo de la información (ISO/IEC 27001 Anexo A 8.13) |
+| Servidor Limpio y Zero-Leak | Reducción de la superficie de exposición y confidencialidad de la información (ISO/IEC 27001) |
+| Registro formal de decisiones técnicas | Información documentada y mejora continua (ISO 9001) |
+
+*SGH-V1 adopta prácticas alineadas con estas normas; esta tabla no implica una certificación.*
+
+> **En síntesis:** la misma lógica que SGH-V1 aplica a las habilitaciones de sus clientes (requisitos explícitos, verificación continua, bloqueo ante desvíos y trazabilidad total) es la que aplicamos para mantener sana la propia plataforma.
 
 ---
 

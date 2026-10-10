@@ -1,279 +1,178 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 920" width="100%" height="100%" style="background:#090d1a; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-  <defs>
-    <!-- Filtros de Glow y Sombra -->
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.6"/>
-    </filter>
-    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-    <filter id="glow-purple" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-
-    <!-- Gradientes -->
-    <linearGradient id="bg-brain" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1e1b4b" />
-      <stop offset="100%" stop-color="#0f172a" />
-    </linearGradient>
-    <linearGradient id="bg-empresa" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0c2340" />
-      <stop offset="100%" stop-color="#081426" />
-    </linearGradient>
-    <linearGradient id="bg-personal" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2a124d" />
-      <stop offset="100%" stop-color="#120924" />
-    </linearGradient>
-    <linearGradient id="bg-sala" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d2847" />
-      <stop offset="100%" stop-color="#08182b" />
-    </linearGradient>
-    <linearGradient id="bg-areas" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#162238" />
-      <stop offset="100%" stop-color="#0d1524" />
-    </linearGradient>
-    <linearGradient id="bg-freeze" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#451a03" />
-      <stop offset="100%" stop-color="#240e02" />
-    </linearGradient>
-    <linearGradient id="bg-arca" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#064e3b" />
-      <stop offset="100%" stop-color="#022c22" />
-    </linearGradient>
-
-    <!-- Marcadores de Flechas -->
-    <marker id="arrow-cyan" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto">
-      <path d="M 0 1 L 8 5 L 0 9 z" fill="#38bdf8" />
-    </marker>
-    <marker id="arrow-indigo" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto">
-      <path d="M 0 1 L 8 5 L 0 9 z" fill="#818cf8" />
-    </marker>
-    <marker id="arrow-amber" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto">
-      <path d="M 0 1 L 8 5 L 0 9 z" fill="#fbbf24" />
-    </marker>
-    <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto">
-      <path d="M 0 1 L 8 5 L 0 9 z" fill="#34d399" />
-    </marker>
-  </defs>
-
-  <!-- Cuadrícula de fondo -->
-  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(56, 189, 248, 0.03)" stroke-width="1"/>
-  </pattern>
-  <rect width="100%" height="100%" fill="url(#grid)" />
-
-  <!-- ========================================== -->
-  <!-- TIER 1: CEREBRO COGNITIVO & PARAMETRIZADOR -->
-  <!-- ========================================== -->
-  <g id="tier1-cerebro" transform="translate(60, 25)">
-    <rect width="1080" height="110" rx="16" fill="url(#bg-brain)" stroke="#6366f1" stroke-width="2" filter="url(#shadow)"/>
-    <text x="30" y="32" fill="#c7d2fe" font-size="11" font-weight="900" letter-spacing="2">TIER 1 · CAPA PARAMETRIZADORA Y MOTOR DE REGLAS</text>
-    <text x="30" y="56" fill="#ffffff" font-size="18" font-weight="900">🧠 CEREBRO COGNITIVO: GESTIÓN DE TRÁMITES Y REQUISITOS</text>
-    <text x="30" y="78" fill="#94a3b8" font-size="12">Fuente de verdad regulatoria que parametriza y aprovisiona a todo el ecosistema</text>
-
-    <!-- Componente 1: Matriz Territorial -->
-    <rect x="520" y="20" width="170" height="70" rx="10" fill="#2e1065" stroke="#a855f7" stroke-width="1.5"/>
-    <text x="535" y="42" fill="#e9d5ff" font-size="11" font-weight="800">Matriz Territorial</text>
-    <text x="535" y="58" fill="#c084fc" font-size="10">CABA · PBA · ANMAC</text>
-    <text x="535" y="72" fill="#a855f7" font-size="9">PNA · Córdoba · SRT</text>
-
-    <!-- Componente 2: Plantillas -->
-    <rect x="705" y="20" width="170" height="70" rx="10" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.5"/>
-    <text x="720" y="42" fill="#e0e7ff" font-size="11" font-weight="800">Plantillas Oficiales</text>
-    <text x="720" y="58" fill="#a5b4fc" font-size="10">Checklists Dinámicos</text>
-    <text x="720" y="72" fill="#818cf8" font-size="9">Reglas No Retroactivas</text>
-
-    <!-- Componente 3: Catálogo SaaS -->
-    <rect x="890" y="20" width="170" height="70" rx="10" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5"/>
-    <text x="905" y="42" fill="#e0f2fe" font-size="11" font-weight="800">Catálogo SaaS</text>
-    <text x="905" y="58" fill="#7dd3fc" font-size="10">Códigos SERV-XXXXX</text>
-    <text x="905" y="72" fill="#38bdf8" font-size="9">SLAs: 24h · 72h · 120h</text>
-  </g>
-
-  <!-- Conectores Tier 1 -> Tier 2 -->
-  <path d="M 605 135 L 340 185" fill="none" stroke="#6366f1" stroke-width="2.5" stroke-dasharray="5 5" marker-end="url(#arrow-indigo)" />
-  <path d="M 975 135 L 860 185" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-dasharray="5 5" marker-end="url(#arrow-cyan)" />
-
-  <!-- ========================================== -->
-  <!-- TIER 2: DOS ENTIDADES PRIMARIAS JERÁRQUICAS -->
-  <!-- ========================================== -->
-  <g id="tier2-entidades" transform="translate(60, 185)">
-    <!-- Contenedor General TIER 2 -->
-    <rect width="1080" height="310" rx="18" fill="#0b1329" stroke="#1e293b" stroke-width="1.5" />
-    <text x="30" y="26" fill="#38bdf8" font-size="11" font-weight="900" letter-spacing="2">TIER 2 · MODELO DE DATOS REAL (RELACIÓN JERÁRQUICA)</text>
-    <text x="30" y="46" fill="#ffffff" font-size="16" font-weight="900">🏢 GOBIERNO DE ENTIDADES OPERATIVAS: DOS ENTIDADES PRIMARIAS</text>
-
-    <!-- ==================== ENTIDAD A: EMPRESA ==================== -->
-    <g transform="translate(20, 60)">
-      <rect width="510" height="235" rx="14" fill="url(#bg-empresa)" stroke="#38bdf8" stroke-width="2" filter="url(#shadow)"/>
-      <rect x="15" y="15" width="28" height="28" rx="6" fill="#0284c7" />
-      <text x="24" y="34" fill="#ffffff" font-size="14" font-weight="900">A</text>
-      <text x="52" y="27" fill="#ffffff" font-size="15" font-weight="900">EMPRESA (Persona Jurídica)</text>
-      <text x="52" y="41" fill="#7dd3fc" font-size="10">Centro de Gravedad Normativo · Único Titular Fiscal Facturable</text>
-
-      <!-- Solapa 1 & 2: Jurisdicciones y Servicios -->
-      <rect x="15" y="55" width="235" height="48" rx="8" fill="#082f49" stroke="#0284c7" stroke-width="1"/>
-      <text x="25" y="72" fill="#bae6fd" font-size="10" font-weight="800">1. Jurisdicciones &amp; Habilitaciones</text>
-      <text x="25" y="87" fill="#7dd3fc" font-size="9">CABA · PBA · PNA · ANMAC (3/3 Vig.)</text>
-
-      <rect x="260" y="55" width="235" height="48" rx="8" fill="#082f49" stroke="#0284c7" stroke-width="1"/>
-      <text x="270" y="72" fill="#bae6fd" font-size="10" font-weight="800">2. Servicios Contratados SaaS</text>
-      <text x="270" y="87" fill="#7dd3fc" font-size="9">Catálogo SERV-XXXXX · SLAs 24h/72h</text>
-
-      <!-- Solapas 3 & 4 (SUBORDINADAS CRÍTICAS): Sedes y Flotas -->
-      <rect x="15" y="112" width="235" height="52" rx="8" fill="#172554" stroke="#60a5fa" stroke-width="1.2"/>
-      <text x="25" y="129" fill="#dbeafe" font-size="10" font-weight="800">📍 3. Sedes y Objetivos</text>
-      <text x="25" y="143" fill="#93c5fd" font-size="9">Plantas · Bases · Centros Logísticos</text>
-      <text x="25" y="155" fill="#f59e0b" font-size="9" font-weight="700">Polvorines Ley 20.429 (Explosivos)</text>
-
-      <rect x="260" y="112" width="235" height="52" rx="8" fill="#172554" stroke="#60a5fa" stroke-width="1.2"/>
-      <text x="270" y="129" fill="#dbeafe" font-size="10" font-weight="800">🚗 4. Flota de Vehículos</text>
-      <text x="270" y="143" fill="#93c5fd" font-size="9">Móviles de Patrulla y Respuesta</text>
-      <text x="270" y="155" fill="#38bdf8" font-size="9" font-weight="700">Camiones Blindados de Caudales</text>
-
-      <!-- Solapas 5, 6, 7, 8, 9: Legal, Societario, Personal, Historial -->
-      <rect x="15" y="173" width="480" height="48" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
-      <text x="25" y="191" fill="#cbd5e1" font-size="9.5" font-weight="700">Solapas Corporativas:</text>
-      <text x="135" y="191" fill="#94a3b8" font-size="9">5. Documentación (Balances CPCE · Pólizas RC y Caución)</text>
-      <text x="25" y="206" fill="#94a3b8" font-size="9">6. Registro Societario (% Soc · DB Biometría · CLU)  ·  7. Personal Asociado  ·  8. Historial Forense</text>
-    </g>
-
-    <!-- ==================== ENTIDAD B: PERSONAL ==================== -->
-    <g transform="translate(550, 60)">
-      <rect width="510" height="235" rx="14" fill="url(#bg-personal)" stroke="#a855f7" stroke-width="2" filter="url(#shadow)"/>
-      <rect x="15" y="15" width="28" height="28" rx="6" fill="#7c3aed" />
-      <text x="24" y="34" fill="#ffffff" font-size="14" font-weight="900">B</text>
-      <text x="52" y="27" fill="#ffffff" font-size="15" font-weight="900">PERSONAL (Persona Física)</text>
-      <text x="52" y="41" fill="#d8b4fe" font-size="10">Unidad de Capacitación Operativa · Credenciales &amp; Legajo Vivo</text>
-
-      <!-- Solapa 1 & 2: Identificación y Contacto -->
-      <rect x="15" y="55" width="235" height="48" rx="8" fill="#3b0764" stroke="#a855f7" stroke-width="1"/>
-      <text x="25" y="72" fill="#f3e8ff" font-size="10" font-weight="800">1. Identificación y Puesto</text>
-      <text x="25" y="87" fill="#d8b4fe" font-size="9">DNI · CUIL · Puesto · Estado Activo</text>
-
-      <rect x="260" y="55" width="235" height="48" rx="8" fill="#3b0764" stroke="#a855f7" stroke-width="1"/>
-      <text x="270" y="72" fill="#f3e8ff" font-size="10" font-weight="800">2. Contacto &amp; Asignación</text>
-      <text x="270" y="87" fill="#d8b4fe" font-size="9">Empleador Principal y Secundarios</text>
-
-      <!-- Solapa 3 (CRÍTICA): Vencimientos y Habilitaciones -->
-      <rect x="15" y="112" width="480" height="52" rx="8" fill="#2e1065" stroke="#c084fc" stroke-width="1.2"/>
-      <text x="25" y="129" fill="#f5d0fe" font-size="10" font-weight="800">🛡️ 3. Vencimientos y Habilitaciones (Matriz Multidominio)</text>
-      <text x="25" y="145" fill="#e9d5ff" font-size="9">CABA (DGSP) · PBA (Ley 12.297) · ANMAC CLU · <tspan fill="#f59e0b" font-weight="700">Portación de Armas de Fuego</tspan> · PNA</text>
-      <text x="25" y="157" fill="#a855f7" font-size="8.5">Semáforo Interactivo: VIGENTES / POR VENCER / VENCIDAS (Filtro en 1 Clic)</text>
-
-      <!-- Solapas 4 & 5: Documentación y Filiación -->
-      <rect x="15" y="173" width="480" height="48" rx="8" fill="#180b2b" stroke="#3b1d5a" stroke-width="1"/>
-      <text x="25" y="191" fill="#e2e8f0" font-size="9.5" font-weight="700">Legajo y Filiación:</text>
-      <text x="135" y="191" fill="#a78bfa" font-size="9">4. Documentación Digital (DNI · Antecedentes · Visor A4)</text>
-      <text x="25" y="206" fill="#a78bfa" font-size="9">5. Datos Filiatorios y Académicos (Familia · Hijos · Nivel de Estudios)</text>
-    </g>
-  </g>
-
-  <!-- Flechas de Conexión hacia Mesa de Entradas -->
-  <path d="M 315 480 L 315 525 L 480 525" fill="none" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arrow-cyan)"/>
-  <path d="M 885 480 L 885 525 L 720 525" fill="none" stroke="#a855f7" stroke-width="2.5" marker-end="url(#arrow-indigo)"/>
-
-  <!-- ========================================== -->
-  <!-- TIER 3: MESA DE ENTRADAS & DOBLE LLAVE     -->
-  <!-- ========================================== -->
-  <g id="tier3-sala" transform="translate(60, 520)">
-    <rect width="1080" height="85" rx="14" fill="url(#bg-sala)" stroke="#0284c7" stroke-width="2" filter="url(#shadow)"/>
-    <text x="25" y="26" fill="#38bdf8" font-size="10" font-weight="900" letter-spacing="2">TIER 3 · TRIAJE INTELIGENTE Y PUERTA DE ENTRADA</text>
-    <text x="25" y="48" fill="#ffffff" font-size="15" font-weight="900">🛎️ MESA DE ENTRADAS &amp; SALA DE ESPERA (VALIDACIÓN DE DOBLE LLAVE)</text>
-    <text x="25" y="68" fill="#94a3b8" font-size="11">Ingreso de expedientes, nóminas y solicitudes con control de aptitud previa</text>
-
-    <!-- Doble Llave Chips -->
-    <rect x="520" y="18" width="260" height="48" rx="8" fill="#082f49" stroke="#38bdf8" stroke-width="1.2"/>
-    <text x="535" y="36" fill="#ffffff" font-size="10" font-weight="800">🔒 Llave 1: Aptitud Territorial</text>
-    <text x="535" y="52" fill="#7dd3fc" font-size="9.5">¿Empresa Habilitada en Jurisdicción?</text>
-
-    <rect x="795" y="18" width="265" height="48" rx="8" fill="#082f49" stroke="#38bdf8" stroke-width="1.2"/>
-    <text x="810" y="36" fill="#ffffff" font-size="10" font-weight="800">🔒 Llave 2: Cobertura Contractual</text>
-    <text x="810" y="52" fill="#7dd3fc" font-size="9.5">¿Servicio SaaS Activo (SERV-XXXXX)?</text>
-  </g>
-
-  <!-- Conector Tier 3 -> Tier 4 -->
-  <path d="M 600 605 L 600 635" fill="none" stroke="#0284c7" stroke-width="3" marker-end="url(#arrow-cyan)"/>
-
-  <!-- ========================================== -->
-  <!-- TIER 4: GOBERNANZA PADRE-HIJOS & CANDADO   -->
-  <!-- ========================================== -->
-  <g id="tier4-areas" transform="translate(60, 635)">
-    <rect width="1080" height="130" rx="16" fill="url(#bg-areas)" stroke="#06b6d4" stroke-width="1.5" filter="url(#shadow)"/>
-    <text x="25" y="24" fill="#67e8f9" font-size="10" font-weight="900" letter-spacing="2">TIER 4 · GOBERNANZA OPERATIVA MULTIDISCIPLINARIA</text>
-
-    <!-- Caja Expediente Padre -->
-    <rect x="25" y="38" width="310" height="75" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
-    <text x="40" y="60" fill="#ffffff" font-size="12" font-weight="900">📁 HABILITACIONES LEGALES</text>
-    <text x="40" y="76" fill="#38bdf8" font-size="10" font-weight="800">Expediente Padre (Orquestador)</text>
-    <text x="40" y="93" fill="#94a3b8" font-size="9.5">Único Titular Facturable · Emite Remito</text>
-
-    <!-- Sub-Tickets Especializados -->
-    <path d="M 335 75 L 365 75" fill="none" stroke="#67e8f9" stroke-width="2" marker-end="url(#arrow-cyan)"/>
-
-    <g transform="translate(370, 38)">
-      <rect width="400" height="75" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
-      <text x="15" y="22" fill="#cbd5e1" font-size="10" font-weight="800">Sub-Tickets Hijos (Operativos · No Facturables):</text>
-      
-      <rect x="15" y="32" width="115" height="32" rx="6" fill="#3b0764" stroke="#a855f7" stroke-width="1"/>
-      <text x="24" y="47" fill="#e9d5ff" font-size="9" font-weight="800">🩺 PsyMed</text>
-      <text x="24" y="58" fill="#c084fc" font-size="8">Psicotécnicos &amp; Armas</text>
-
-      <rect x="140" y="32" width="130" height="32" rx="6" fill="#451a03" stroke="#f59e0b" stroke-width="1"/>
-      <text x="148" y="47" fill="#fef3c7" font-size="9" font-weight="800">💥 Trám. Especiales</text>
-      <text x="148" y="58" fill="#fde68a" font-size="8">ANMAC Ley 20.429</text>
-
-      <rect x="280" y="32" width="105" height="32" rx="6" fill="#1e1b4b" stroke="#6366f1" stroke-width="1"/>
-      <text x="290" y="47" fill="#e0e7ff" font-size="9" font-weight="800">🎓 Mentoría</text>
-      <text x="290" y="58" fill="#a5b4fc" font-size="8">Instrucción Técnica</text>
-    </g>
-
-    <!-- Candado Forense (FREEZE) -->
-    <path d="M 770 75 L 800 75" fill="none" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrow-amber)"/>
-
-    <g transform="translate(805, 38)">
-      <rect width="250" height="75" rx="10" fill="url(#bg-freeze)" stroke="#f59e0b" stroke-width="2" filter="url(#shadow)"/>
-      <text x="15" y="28" fill="#fef3c7" font-size="11" font-weight="900">🔒 CANDADO FORENSE (FREEZE)</text>
-      <text x="15" y="48" fill="#fbbf24" font-size="10" font-weight="800">Dictamen Técnico Inmutable</text>
-      <text x="15" y="65" fill="#fcd34d" font-size="9">Apto / No Apto congelado en DB.</text>
-      <text x="15" y="78" fill="#fde68a" font-size="8.5">Habilitaciones no puede modificarlo.</text>
-    </g>
-  </g>
-
-  <!-- Conector Tier 4 -> Tier 5 -->
-  <path d="M 180 745 L 180 790 L 300 790" fill="none" stroke="#34d399" stroke-width="2.5" marker-end="url(#arrow-green)"/>
-
-  <!-- ========================================== -->
-  <!-- TIER 5: CIERRE FISCAL ARCA & TELEMETRÍA   -->
-  <!-- ========================================== -->
-  <g id="tier5-cierre" transform="translate(60, 785)">
-    <rect width="1080" height="105" rx="16" fill="url(#bg-arca)" stroke="#10b981" stroke-width="2" filter="url(#shadow)"/>
-    <text x="25" y="24" fill="#a7f3d0" font-size="10" font-weight="900" letter-spacing="2">TIER 5 · GESTIÓN COMERCIAL, CIERRE FISCAL ARCA Y AUDITORÍA V.I.G.I.A.</text>
-
-    <!-- Remisión Consolidada -->
-    <g transform="translate(25, 34)">
-      <rect width="320" height="55" rx="8" fill="#022c22" stroke="#34d399" stroke-width="1.2"/>
-      <text x="15" y="24" fill="#ffffff" font-size="11" font-weight="800">📄 Remisión Consolidada Única</text>
-      <text x="15" y="42" fill="#a7f3d0" font-size="9.5">Solo el Padre eleva a Comercial · Cero remitos huérfanos</text>
-    </g>
-
-    <!-- Flecha a ARCA -->
-    <path d="M 355 61 L 385 61" fill="none" stroke="#34d399" stroke-width="2" marker-end="url(#arrow-green)"/>
-
-    <!-- Facturación Fiscal ARCA -->
-    <g transform="translate(390, 34)">
-      <rect width="345" height="55" rx="8" fill="#022c22" stroke="#34d399" stroke-width="1.2"/>
-      <text x="15" y="24" fill="#ffffff" font-size="11" font-weight="800">💼 Facturación Fiscal ARCA (ex AFIP)</text>
-      <text x="15" y="42" fill="#6ee7b7" font-size="9.5">CAE Online · Padrón CUIT · Facturas A/B con QR Oficial</text>
-    </g>
-
-    <!-- V.I.G.I.A. Telemetría 24/7 -->
-    <g transform="translate(755, 34)">
-      <rect width="300" height="55" rx="8" fill="#0f172a" stroke="#06b6d4" stroke-width="1.5" filter="url(#glow-cyan)"/>
-      <text x="15" y="24" fill="#67e8f9" font-size="11" font-weight="900">🛡️ V.I.G.I.A. (Kernel IA 24/7)</text>
-      <text x="15" y="42" fill="#94a3b8" font-size="9">Dashboards Drill-Down · Subsanación A+C · Auditoría Forense</text>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350" role="img" aria-labelledby="t d" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<title id="t">Arquitectura de gobierno operativo de SGH-V1</title>
+<desc id="d">El Cerebro del sistema, Gestión de Trámites y Requisitos, define jurisdicciones, plantillas de requisitos y el catálogo de servicios, y provee a cada nivel: fichas de Empresa (9 solapas) y Personal (5 solapas); mesa de entradas con Doble Llave; expediente padre con áreas técnicas y candado forense; cierre comercial y facturación ARCA. V.I.G.I.A. supervisa todos los niveles.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b1120"/><stop offset="1" stop-color="#060912"/></linearGradient>
+<linearGradient id="tierbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111a2e"/><stop offset="1" stop-color="#0c1324"/></linearGradient>
+<linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e1b4b"/><stop offset="1" stop-color="#111a2e"/></linearGradient>
+<linearGradient id="amber" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b2506"/><stop offset="1" stop-color="#1f1405"/></linearGradient>
+<linearGradient id="vigia" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#083344"/><stop offset="0.5" stop-color="#0e3a52"/><stop offset="1" stop-color="#083344"/></linearGradient>
+<filter id="glow" x="-5%" y="-10%" width="110%" height="120%"><feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#818cf8" flood-opacity="0.45"/></filter>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1e293b" stroke-width="0.6" opacity="0.5"/></pattern>
+</defs>
+<rect width="1080" height="1350" fill="url(#bg)"/>
+<rect width="1080" height="1350" fill="url(#grid)"/>
+<text x="40.0" y="80.0" font-size="46" fill="#22d3ee" font-weight="700" text-anchor="start">SGH-V1</text>
+<text x="232.0" y="80.0" font-size="26" fill="#ffffff" font-weight="700" text-anchor="start">Arquitectura de gobierno operativo</text>
+<text x="40.0" y="114.0" font-size="18" fill="#94a3b8" text-anchor="start">De la norma a la factura: cada expediente recorre cinco niveles controlados</text>
+<rect x="96.0" y="140.0" width="834.0" height="200.0" rx="18" fill="url(#hero)" stroke="#818cf8" stroke-width="3" filter="url(#glow)"/>
+<text x="120.0" y="174.0" font-size="13" fill="#818cf8" font-weight="700" letter-spacing="2.5" text-anchor="start">NIVEL 1 · EL CEREBRO DEL SISTEMA</text>
+<text x="120.0" y="204.0" font-size="25" fill="#ffffff" font-weight="700" text-anchor="start">Gestión de Trámites y Requisitos</text>
+<text x="120.0" y="232.0" font-size="16" fill="#a5b4fc" text-anchor="start">Fuente única de verdad: define qué se exige, qué se presta y cuánto cuesta</text>
+<rect x="120.0" y="250.0" width="251.3" height="72.0" rx="12" fill="#0f172a" stroke="#818cf8" stroke-width="1.5" />
+<text x="136.0" y="282.0" font-size="16" fill="#ffffff" font-weight="700" text-anchor="start">Matriz normativa</text>
+<text x="136.0" y="306.0" font-size="15" fill="#818cf8" text-anchor="start">Jurisdicciones configurables</text>
+<rect x="387.3" y="250.0" width="251.3" height="72.0" rx="12" fill="#0f172a" stroke="#818cf8" stroke-width="1.5" />
+<text x="403.3" y="282.0" font-size="16" fill="#ffffff" font-weight="700" text-anchor="start">Plantillas de requisitos</text>
+<text x="403.3" y="306.0" font-size="15" fill="#818cf8" text-anchor="start">Checklists no retroactivos</text>
+<rect x="654.7" y="250.0" width="251.3" height="72.0" rx="12" fill="#0f172a" stroke="#818cf8" stroke-width="1.5" />
+<text x="670.7" y="282.0" font-size="16" fill="#ffffff" font-weight="700" text-anchor="start">Catálogo de servicios</text>
+<text x="670.7" y="306.0" font-size="15" fill="#818cf8" text-anchor="start">SERV · SLA · aranceles</text>
+<line x1="513.0" y1="344.0" x2="513.0" y2="360.0" stroke="#94a3b8" stroke-width="2.5"/>
+<path d="M513.0 368.0 l-6 -11 h12 z" fill="#94a3b8"/>
+<rect x="96.0" y="370.0" width="834.0" height="295.0" rx="18" fill="url(#tierbg)" stroke="#38bdf8" stroke-width="1.8" />
+<text x="120.0" y="404.0" font-size="13" fill="#38bdf8" font-weight="700" letter-spacing="2.5" text-anchor="start">NIVEL 2 · DOS ENTIDADES PRIMARIAS</text>
+<text x="120.0" y="434.0" font-size="23" fill="#ffffff" font-weight="700" text-anchor="start">Fichas de Empresa y de Personal</text>
+<rect x="638.9" y="388.0" width="267.1" height="26.0" rx="13" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.2" />
+<text x="772.4" y="406.0" font-size="13" fill="#a5b4fc" text-anchor="middle">Provee: checklists y jurisdicciones</text>
+<rect x="120.0" y="456.0" width="470.0" height="193.0" rx="14" fill="#0b1222" stroke="#38bdf8" stroke-width="1.6" />
+<circle cx="152.0" cy="490.0" r="16" fill="#38bdf8"/>
+<text x="152.0" y="496.0" font-size="17" fill="#0b1222" font-weight="700" text-anchor="middle">A</text>
+<text x="178.0" y="489.0" font-size="20" fill="#ffffff" font-weight="700" text-anchor="start">Empresa</text>
+<text x="178.0" y="511.0" font-size="14" fill="#38bdf8" text-anchor="start">Persona jurídica · 9 solapas</text>
+<text x="138.0" y="538.0" font-size="14" fill="#38bdf8" font-weight="700" text-anchor="start">1.</text>
+<text x="160.0" y="538.0" font-size="14" fill="#e2e8f0" text-anchor="start">Datos generales</text>
+<text x="138.0" y="561.0" font-size="14" fill="#38bdf8" font-weight="700" text-anchor="start">2.</text>
+<text x="160.0" y="561.0" font-size="14" fill="#e2e8f0" text-anchor="start">Jurisdicciones</text>
+<text x="138.0" y="584.0" font-size="14" fill="#38bdf8" font-weight="700" text-anchor="start">3.</text>
+<text x="160.0" y="584.0" font-size="14" fill="#e2e8f0" text-anchor="start">Servicios contratados</text>
+<text x="138.0" y="607.0" font-size="14" fill="#38bdf8" font-weight="700" text-anchor="start">4.</text>
+<text x="160.0" y="607.0" font-size="14" fill="#e2e8f0" text-anchor="start">Sedes y objetivos</text>
+<text x="138.0" y="630.0" font-size="14" fill="#38bdf8" font-weight="700" text-anchor="start">5.</text>
+<text x="160.0" y="630.0" font-size="14" fill="#e2e8f0" text-anchor="start">Flota de vehículos</text>
+<text x="357.0" y="538.0" font-size="14" fill="#38bdf8" font-weight="700" text-anchor="start">6.</text>
+<text x="379.0" y="538.0" font-size="14" fill="#e2e8f0" text-anchor="start">Documentación</text>
+<text x="357.0" y="561.0" font-size="14" fill="#38bdf8" font-weight="700" text-anchor="start">7.</text>
+<text x="379.0" y="561.0" font-size="14" fill="#e2e8f0" text-anchor="start">Registro societario</text>
+<text x="357.0" y="584.0" font-size="14" fill="#38bdf8" font-weight="700" text-anchor="start">8.</text>
+<text x="379.0" y="584.0" font-size="14" fill="#e2e8f0" text-anchor="start">Personal asociado</text>
+<text x="357.0" y="607.0" font-size="14" fill="#38bdf8" font-weight="700" text-anchor="start">9.</text>
+<text x="379.0" y="607.0" font-size="14" fill="#e2e8f0" text-anchor="start">Historial</text>
+<rect x="606.0" y="456.0" width="300.0" height="193.0" rx="14" fill="#0b1222" stroke="#c084fc" stroke-width="1.6" />
+<circle cx="638.0" cy="490.0" r="16" fill="#c084fc"/>
+<text x="638.0" y="496.0" font-size="17" fill="#0b1222" font-weight="700" text-anchor="middle">B</text>
+<text x="664.0" y="489.0" font-size="20" fill="#ffffff" font-weight="700" text-anchor="start">Personal</text>
+<text x="664.0" y="511.0" font-size="14" fill="#c084fc" text-anchor="start">Persona física · 5 solapas</text>
+<text x="624.0" y="538.0" font-size="14" fill="#c084fc" font-weight="700" text-anchor="start">1.</text>
+<text x="646.0" y="538.0" font-size="14" fill="#e2e8f0" text-anchor="start">Identificación y puesto</text>
+<text x="624.0" y="561.0" font-size="14" fill="#c084fc" font-weight="700" text-anchor="start">2.</text>
+<text x="646.0" y="561.0" font-size="14" fill="#e2e8f0" text-anchor="start">Documentación digital</text>
+<text x="624.0" y="584.0" font-size="14" fill="#c084fc" font-weight="700" text-anchor="start">3.</text>
+<text x="646.0" y="584.0" font-size="14" fill="#e2e8f0" text-anchor="start">Datos filiatorios</text>
+<text x="624.0" y="607.0" font-size="14" fill="#c084fc" font-weight="700" text-anchor="start">4.</text>
+<text x="646.0" y="607.0" font-size="14" fill="#e2e8f0" text-anchor="start">Contacto y asignación</text>
+<text x="624.0" y="630.0" font-size="14" fill="#c084fc" font-weight="700" text-anchor="start">5.</text>
+<text x="646.0" y="630.0" font-size="14" fill="#e2e8f0" text-anchor="start">Vencimientos y habilitaciones</text>
+<line x1="513.0" y1="669.0" x2="513.0" y2="685.0" stroke="#94a3b8" stroke-width="2.5"/>
+<path d="M513.0 693.0 l-6 -11 h12 z" fill="#94a3b8"/>
+<rect x="96.0" y="695.0" width="834.0" height="166.0" rx="18" fill="url(#tierbg)" stroke="#22d3ee" stroke-width="1.8" />
+<text x="120.0" y="729.0" font-size="13" fill="#22d3ee" font-weight="700" letter-spacing="2.5" text-anchor="start">NIVEL 3 · PUERTA DE ENTRADA</text>
+<text x="120.0" y="759.0" font-size="23" fill="#ffffff" font-weight="700" text-anchor="start">Mesa de entradas con Doble Llave</text>
+<rect x="714.6" y="713.0" width="191.4" height="26.0" rx="13" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.2" />
+<text x="810.3" y="731.0" font-size="13" fill="#a5b4fc" text-anchor="middle">Provee: requisitos y SLA</text>
+<rect x="120.0" y="781.0" width="174.0" height="64.0" rx="12" fill="#0f172a" stroke="#94a3b8" stroke-width="1.5" />
+<text x="207.0" y="809.0" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">Ingreso</text>
+<text x="207.0" y="833.0" font-size="13" fill="#94a3b8" text-anchor="middle">Trámites y nóminas</text>
+<line x1="297.0" y1="813.0" x2="313.0" y2="813.0" stroke="#94a3b8" stroke-width="2.5"/>
+<path d="M321.0 813.0 l-11 -6 v12 z" fill="#94a3b8"/>
+<rect x="324.0" y="781.0" width="174.0" height="64.0" rx="12" fill="#0f172a" stroke="#22d3ee" stroke-width="1.5" />
+<text x="411.0" y="809.0" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">Llave 1</text>
+<text x="411.0" y="833.0" font-size="13" fill="#22d3ee" text-anchor="middle">¿Empresa registrada?</text>
+<line x1="501.0" y1="813.0" x2="517.0" y2="813.0" stroke="#94a3b8" stroke-width="2.5"/>
+<path d="M525.0 813.0 l-11 -6 v12 z" fill="#94a3b8"/>
+<rect x="528.0" y="781.0" width="174.0" height="64.0" rx="12" fill="#0f172a" stroke="#22d3ee" stroke-width="1.5" />
+<text x="615.0" y="809.0" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">Llave 2</text>
+<text x="615.0" y="833.0" font-size="13" fill="#22d3ee" text-anchor="middle">¿Servicio contratado?</text>
+<line x1="705.0" y1="813.0" x2="721.0" y2="813.0" stroke="#94a3b8" stroke-width="2.5"/>
+<path d="M729.0 813.0 l-11 -6 v12 z" fill="#94a3b8"/>
+<rect x="732.0" y="781.0" width="174.0" height="64.0" rx="12" fill="#0f172a" stroke="#94a3b8" stroke-width="1.5" />
+<text x="819.0" y="809.0" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">Triaje</text>
+<text x="819.0" y="833.0" font-size="13" fill="#94a3b8" text-anchor="middle">SLA 24 · 72 · 120 h</text>
+<line x1="513.0" y1="865.0" x2="513.0" y2="881.0" stroke="#94a3b8" stroke-width="2.5"/>
+<path d="M513.0 889.0 l-6 -11 h12 z" fill="#94a3b8"/>
+<rect x="96.0" y="891.0" width="834.0" height="200.0" rx="18" fill="url(#tierbg)" stroke="#2dd4bf" stroke-width="1.8" />
+<text x="120.0" y="925.0" font-size="13" fill="#2dd4bf" font-weight="700" letter-spacing="2.5" text-anchor="start">NIVEL 4 · GOBERNANZA DEL EXPEDIENTE</text>
+<text x="120.0" y="955.0" font-size="23" fill="#ffffff" font-weight="700" text-anchor="start">Expediente padre, áreas y candado</text>
+<rect x="700.9" y="909.0" width="205.1" height="26.0" rx="13" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.2" />
+<text x="803.4" y="927.0" font-size="13" fill="#a5b4fc" text-anchor="middle">Provee: áreas responsables</text>
+<rect x="120.0" y="975.0" width="210.0" height="104.0" rx="12" fill="#0f172a" stroke="#2dd4bf" stroke-width="1.5" />
+<text x="136.0" y="1023.0" font-size="18" fill="#ffffff" font-weight="700" text-anchor="start">Expediente padre</text>
+<text x="136.0" y="1047.0" font-size="15" fill="#2dd4bf" text-anchor="start">Único facturable</text>
+<rect x="368.0" y="975.0" width="270.0" height="32.0" rx="10" fill="#0b1222" stroke="#2dd4bf" stroke-width="1.2" />
+<text x="382.0" y="996.0" font-size="15" fill="#ffffff" font-weight="700" text-anchor="start">PsyMed</text>
+<text x="624.0" y="996.0" font-size="14" fill="#5eead4" text-anchor="end">psicotécnicos</text>
+<rect x="368.0" y="1011.0" width="270.0" height="32.0" rx="10" fill="#0b1222" stroke="#2dd4bf" stroke-width="1.2" />
+<text x="382.0" y="1032.0" font-size="15" fill="#ffffff" font-weight="700" text-anchor="start">Trámites ANMAC</text>
+<text x="624.0" y="1032.0" font-size="14" fill="#5eead4" text-anchor="end">Ley 20.429</text>
+<rect x="368.0" y="1047.0" width="270.0" height="32.0" rx="10" fill="#0b1222" stroke="#2dd4bf" stroke-width="1.2" />
+<text x="382.0" y="1068.0" font-size="15" fill="#ffffff" font-weight="700" text-anchor="start">Mentoría</text>
+<text x="624.0" y="1068.0" font-size="14" fill="#5eead4" text-anchor="end">instrucción</text>
+<line x1="334.0" y1="1027.0" x2="356.0" y2="1027.0" stroke="#94a3b8" stroke-width="2.5"/>
+<path d="M364.0 1027.0 l-11 -6 v12 z" fill="#94a3b8"/>
+<line x1="642.0" y1="1027.0" x2="664.0" y2="1027.0" stroke="#f59e0b" stroke-width="2.5"/>
+<path d="M672.0 1027.0 l-11 -6 v12 z" fill="#f59e0b"/>
+<rect x="676.0" y="975.0" width="230.0" height="104.0" rx="12" fill="url(#amber)" stroke="#f59e0b" stroke-width="1.8" />
+<text x="692.0" y="1005.0" font-size="18" fill="#fde68a" font-weight="700" text-anchor="start">Candado forense</text>
+<text x="692.0" y="1031.0" font-size="15" fill="#fcd34d" text-anchor="start">Dictamen inmutable</text>
+<text x="692.0" y="1055.0" font-size="14" fill="#fbbf24" text-anchor="start">Apto / No apto congelado</text>
+<line x1="513.0" y1="1095.0" x2="513.0" y2="1111.0" stroke="#94a3b8" stroke-width="2.5"/>
+<path d="M513.0 1119.0 l-6 -11 h12 z" fill="#94a3b8"/>
+<rect x="96.0" y="1121.0" width="834.0" height="166.0" rx="18" fill="url(#tierbg)" stroke="#34d399" stroke-width="1.8" />
+<text x="120.0" y="1155.0" font-size="13" fill="#34d399" font-weight="700" letter-spacing="2.5" text-anchor="start">NIVEL 5 · CIERRE COMERCIAL Y FISCAL</text>
+<text x="120.0" y="1185.0" font-size="23" fill="#ffffff" font-weight="700" text-anchor="start">Remisión única y facturación ARCA</text>
+<rect x="762.9" y="1139.0" width="143.1" height="26.0" rx="13" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.2" />
+<text x="834.4" y="1157.0" font-size="13" fill="#a5b4fc" text-anchor="middle">Provee: aranceles</text>
+<rect x="120.0" y="1207.0" width="235.3" height="64.0" rx="12" fill="#0f172a" stroke="#34d399" stroke-width="1.5" />
+<text x="136.0" y="1235.0" font-size="17" fill="#ffffff" font-weight="700" text-anchor="start">Remisión única</text>
+<text x="136.0" y="1259.0" font-size="15" fill="#34d399" text-anchor="start">Solo el expediente padre</text>
+<line x1="361.3" y1="1239.0" x2="381.3" y2="1239.0" stroke="#34d399" stroke-width="2.5"/>
+<path d="M389.3 1239.0 l-11 -6 v12 z" fill="#34d399"/>
+<rect x="395.3" y="1207.0" width="235.3" height="64.0" rx="12" fill="#0f172a" stroke="#34d399" stroke-width="1.5" />
+<text x="411.3" y="1235.0" font-size="17" fill="#ffffff" font-weight="700" text-anchor="start">Remito autorizado</text>
+<text x="411.3" y="1259.0" font-size="15" fill="#34d399" text-anchor="start">Sin remitos huérfanos</text>
+<line x1="636.7" y1="1239.0" x2="656.7" y2="1239.0" stroke="#34d399" stroke-width="2.5"/>
+<path d="M664.7 1239.0 l-11 -6 v12 z" fill="#34d399"/>
+<rect x="670.7" y="1207.0" width="235.3" height="64.0" rx="12" fill="#0f172a" stroke="#34d399" stroke-width="1.5" />
+<text x="686.7" y="1235.0" font-size="17" fill="#ffffff" font-weight="700" text-anchor="start">Factura ARCA</text>
+<text x="686.7" y="1259.0" font-size="15" fill="#34d399" text-anchor="start">CAE en línea · QR oficial</text>
+<path d="M96 200 H57.0 V1152.0" fill="none" stroke="#818cf8" stroke-width="3"/>
+<rect x="40.0" y="441.0" width="34.0" height="671.0" rx="17" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.5" />
+<g transform="rotate(-90 57.0 776.5)">
+<text x="57.0" y="781.5" font-size="14" fill="#a5b4fc" font-weight="700" letter-spacing="2.5" text-anchor="middle">EL CEREBRO PROVEE A CADA NIVEL</text>
+</g>
+<line x1="57.0" y1="401.0" x2="86.0" y2="401.0" stroke="#818cf8" stroke-width="2.5"/>
+<path d="M94.0 401.0 l-11 -6 v12 z" fill="#818cf8"/>
+<line x1="74.0" y1="726.0" x2="86.0" y2="726.0" stroke="#818cf8" stroke-width="2.5"/>
+<path d="M94.0 726.0 l-11 -6 v12 z" fill="#818cf8"/>
+<line x1="74.0" y1="922.0" x2="86.0" y2="922.0" stroke="#818cf8" stroke-width="2.5"/>
+<path d="M94.0 922.0 l-11 -6 v12 z" fill="#818cf8"/>
+<line x1="57.0" y1="1152.0" x2="86.0" y2="1152.0" stroke="#818cf8" stroke-width="2.5"/>
+<path d="M94.0 1152.0 l-11 -6 v12 z" fill="#818cf8"/>
+<rect x="950.0" y="140.0" width="90.0" height="1147.0" rx="18" fill="url(#vigia)" stroke="#22d3ee" stroke-width="1.8" />
+<line x1="930" y1="240.0" x2="950" y2="240.0" stroke="#22d3ee" stroke-width="2" stroke-dasharray="4 4"/>
+<circle cx="950" cy="240.0" r="4" fill="#22d3ee"/>
+<line x1="930" y1="517.5" x2="950" y2="517.5" stroke="#22d3ee" stroke-width="2" stroke-dasharray="4 4"/>
+<circle cx="950" cy="517.5" r="4" fill="#22d3ee"/>
+<line x1="930" y1="778.0" x2="950" y2="778.0" stroke="#22d3ee" stroke-width="2" stroke-dasharray="4 4"/>
+<circle cx="950" cy="778.0" r="4" fill="#22d3ee"/>
+<line x1="930" y1="991.0" x2="950" y2="991.0" stroke="#22d3ee" stroke-width="2" stroke-dasharray="4 4"/>
+<circle cx="950" cy="991.0" r="4" fill="#22d3ee"/>
+<line x1="930" y1="1204.0" x2="950" y2="1204.0" stroke="#22d3ee" stroke-width="2" stroke-dasharray="4 4"/>
+<circle cx="950" cy="1204.0" r="4" fill="#22d3ee"/>
+<g transform="rotate(-90 995.0 713.5)">
+<text x="995.0" y="707.5" font-size="24" fill="#ffffff" font-weight="700" letter-spacing="3" text-anchor="middle">V.I.G.I.A. · MOTOR DE IA</text>
+<text x="995.0" y="737.5" font-size="15" fill="#a5f3fc" text-anchor="middle">Supervisa cada nivel · alertas · subsanación en 1 clic</text>
+</g>
+<text x="40.0" y="1325.0" font-size="13" fill="#64748b" text-anchor="start">Izquierda: lo que provee el Cerebro · Derecha: supervisión de V.I.G.I.A. · Flechas: recorrido del expediente</text>
+<text x="1040.0" y="1325.0" font-size="13" fill="#64748b" text-anchor="end">OMARDOM Soluciones Digitales</text>
 </svg>

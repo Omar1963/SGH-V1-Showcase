@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/omar-dominguez-sghv1/"><b>💬 Coordinar un briefing</b></a> ·
+  <a href="https://www.linkedin.com/in/omar-dom%C3%ADnguez-0aa1aa202/"><b>💬 Coordinar un briefing</b></a> ·
   <a href="docs/vigia_dossier_tecnico_marketing.md"><b>🧠 Dossier técnico de V.I.G.I.A.</b></a> ·
   <a href="#arquitectura"><b>🗺️ Arquitectura</b></a>
 </p>
@@ -211,7 +211,7 @@ SGH-V1 se gobierna a sí mismo con la misma disciplina que aplica a sus clientes
 
 ¿Su organización controla el cumplimiento por reacción a los problemas o por gobernanza preventiva? Coordinemos un **briefing técnico privado**:
 
-👉 **[Escribime por LinkedIn](https://www.linkedin.com/in/omar-dominguez-sghv1/)**
+👉 **[Escribime por LinkedIn](https://www.linkedin.com/in/omar-dom%C3%ADnguez-0aa1aa202/)**
 
 ---
 

@@ -5,11 +5,15 @@ description: "Plataforma para industrias fiscalizadas: habilitaciones, credencia
 lang: es-AR
 url: "https://omar1963.github.io"
 baseurl: "/SGH-V1-Showcase"
-image:
-  path: /assets/og-sghv1.png
-  width: 1200
-  height: 627
-  alt: "SGH-V1: gobierno operativo y cumplimiento regulatorio"
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/og-sghv1.png
+        width: 1200
+        height: 627
+        alt: "SGH-V1: gobierno operativo y cumplimiento regulatorio"
 author: Omar Domínguez
 twitter:
   card: summary_large_image

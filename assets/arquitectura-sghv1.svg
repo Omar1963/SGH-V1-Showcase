@@ -107,16 +107,13 @@
 <text x="803.4" y="927.0" font-size="13" fill="#a5b4fc" text-anchor="middle">Provee: áreas responsables</text>
 <rect x="120.0" y="975.0" width="210.0" height="104.0" rx="12" fill="#0f172a" stroke="#2dd4bf" stroke-width="1.5" />
 <text x="136.0" y="1023.0" font-size="18" fill="#ffffff" font-weight="700" text-anchor="start">Expediente padre</text>
-<text x="136.0" y="1047.0" font-size="15" fill="#2dd4bf" text-anchor="start">Único facturable</text>
-<rect x="368.0" y="975.0" width="270.0" height="32.0" rx="10" fill="#0b1222" stroke="#2dd4bf" stroke-width="1.2" />
-<text x="382.0" y="996.0" font-size="15" fill="#ffffff" font-weight="700" text-anchor="start">PsyMed</text>
-<text x="624.0" y="996.0" font-size="14" fill="#5eead4" text-anchor="end">psicotécnicos</text>
-<rect x="368.0" y="1011.0" width="270.0" height="32.0" rx="10" fill="#0b1222" stroke="#2dd4bf" stroke-width="1.2" />
-<text x="382.0" y="1032.0" font-size="15" fill="#ffffff" font-weight="700" text-anchor="start">Trámites ANMAC</text>
-<text x="624.0" y="1032.0" font-size="14" fill="#5eead4" text-anchor="end">Ley 20.429</text>
-<rect x="368.0" y="1047.0" width="270.0" height="32.0" rx="10" fill="#0b1222" stroke="#2dd4bf" stroke-width="1.2" />
-<text x="382.0" y="1068.0" font-size="15" fill="#ffffff" font-weight="700" text-anchor="start">Mentoría</text>
-<text x="624.0" y="1068.0" font-size="14" fill="#5eead4" text-anchor="end">instrucción</text>
+<text x="136.0" y="1047.0" font-size="14" fill="#2dd4bf" text-anchor="start">Habilitaciones · facturable</text>
+<rect x="368.0" y="975.0" width="270.0" height="44.0" rx="10" fill="#0b1222" stroke="#2dd4bf" stroke-width="1.2" />
+<text x="382.0" y="994.0" font-size="15" fill="#ffffff" font-weight="700" text-anchor="start">PsyMed</text>
+<text x="382.0" y="1012.0" font-size="13" fill="#5eead4" text-anchor="start">Psicotécnicos y aptos</text>
+<rect x="368.0" y="1035.0" width="270.0" height="44.0" rx="10" fill="#0b1222" stroke="#2dd4bf" stroke-width="1.2" />
+<text x="382.0" y="1054.0" font-size="15" fill="#ffffff" font-weight="700" text-anchor="start">Trámites especiales</text>
+<text x="382.0" y="1072.0" font-size="13" fill="#5eead4" text-anchor="start">ANMAC · Ley 20.429</text>
 <line x1="334.0" y1="1027.0" x2="356.0" y2="1027.0" stroke="#94a3b8" stroke-width="2.5"/>
 <path d="M364.0 1027.0 l-11 -6 v12 z" fill="#94a3b8"/>
 <line x1="642.0" y1="1027.0" x2="664.0" y2="1027.0" stroke="#f59e0b" stroke-width="2.5"/>

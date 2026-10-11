@@ -129,7 +129,7 @@ Con esa configuración, el resto del sistema trabaja solo:
 1. **Cerebro normativo:** el módulo de Trámites y Requisitos es la fuente de verdad. Define los requisitos de cada organismo y el catálogo de servicios con sus SLAs, aranceles y área responsable.
 2. **Doble aprovisionamiento de la empresa:** primero se le asigna una jurisdicción (con sus plantillas oficiales) y, sólo con una jurisdicción activa, los servicios de ese territorio.
 3. **Mesa de entradas con Doble Llave:** cada solicitud se valida contra el registro de la empresa en la jurisdicción y el servicio contratado. Si una llave falla, el ingreso se bloquea y V.I.G.I.A. alerta el desvío.
-4. **Gobierno padre-hijos:** Habilitaciones es el expediente padre y único facturable; deriva sub-tickets a PsyMed, Trámites Especiales o Mentoría.
+4. **Gobierno padre-hijos:** Habilitaciones es el expediente padre y único facturable; según el sector responsable de cada requisito, deriva sub-trámites a PsyMed o a Trámites Especiales (ANMAC).
 5. **Candado forense:** el dictamen técnico (Apto / No Apto / Observado) queda congelado y no puede modificarse.
 6. **Cierre comercial y fiscal:** sólo el expediente padre concluido genera remito y factura. No existen remitos ni facturas huérfanas.
 

@@ -99,6 +99,11 @@ Con esa configuración, el resto del sistema trabaja solo:
 
 > **Una nueva jurisdicción o una nueva industria se incorpora configurando, no programando.**
 
+<p align="center">
+  <img src="assets/demo/cerebro-tramites-requisitos.png" alt="Módulo Gestión de Trámites y Requisitos de SGH-V1: jurisdicciones configuradas, plantillas registradas y requisitos con sector evaluador" width="760" style="max-width: 100%; border-radius: 10px; border: 1px solid #e2e8f0;" /><br>
+  <sub>El Cerebro en el sistema: jurisdicciones, plantillas de trámite con su ficha comercial y requisitos con su sector evaluador.</sub>
+</p>
+
 <details>
 <summary><b>📋 Ver el detalle de solapas de Empresa y Personal</b></summary>
 <br>
@@ -135,6 +140,20 @@ Con esa configuración, el resto del sistema trabaja solo:
 
 </details>
 
+### 📥 La mesa de entradas, en funcionamiento
+
+**Recepción** funciona como torre de control: muestra cada trámite en curso, en qué área está (Habilitaciones, PsyMed, Trámites especiales o el circuito comercial) y en qué estado. Cada área tiene además su propia mesa de trabajo, con solo lo que le corresponde.
+
+<p align="center">
+  <img src="assets/demo/mesa-entradas-recepcion.jpg" alt="Sala de espera de SGH-V1, solapa Recepción: trámites con su ubicación por área y su estado" width="760" style="max-width: 100%; border-radius: 10px; border: 1px solid #e2e8f0;" /><br>
+  <sub>Recepción: la vista completa de los trámites en curso, con su área actual y su estado.</sub>
+</p>
+
+<p align="center">
+  <img src="assets/demo/mesa-entradas-habilitaciones.jpg" alt="Sala de espera de SGH-V1, solapa Habilitaciones: expedientes del área con su ubicación y estado, hasta la etapa comercial" width="760" style="max-width: 100%; border-radius: 10px; border: 1px solid #e2e8f0;" /><br>
+  <sub>Mesa de Habilitaciones: los expedientes del área y su recorrido hasta la etapa comercial.</sub>
+</p>
+
 ---
 
 ## 🛡️ V.I.G.I.A. — Motor de Inteligencia Artificial
@@ -151,6 +170,11 @@ Con esa configuración, el resto del sistema trabaja solo:
 - **Inspector en pantalla (`F1` / `Ctrl + Espacio`):** al pasar el mouse sobre cualquier campo explica qué es, qué formato exige, qué impacto normativo tiene y qué roles pueden modificarlo.
 - **8 pilares en tiempo real:** sector y procedimiento, rol, matriz de permisos, diccionario de campos, diagnóstico vivo (`OPERATIVO` · `CON_OBSERVACIONES` · `BLOQUEADO`), trazabilidad, micro-acciones de 1 clic y radar de riesgo con reporte en PDF.
 
+<p align="center">
+  <img src="assets/demo/vigia-tramites-especiales.jpg" alt="Mesa de Trámites especiales de SGH-V1 con el panel de V.I.G.I.A.: normativa aplicable y reglas del sector" width="760" style="max-width: 100%; border-radius: 10px; border: 1px solid #e2e8f0;" /><br>
+  <sub>En cada mesa de trabajo, V.I.G.I.A. muestra la normativa y las reglas del sector. En Trámites especiales: idoneidad de tiro y CLU, antecedentes penales recientes y doble validación psicológica en expedientes de alta criticidad.</sub>
+</p>
+
 📄 **Más detalle:** [Dossier técnico y operativo de V.I.G.I.A.](docs/vigia_dossier_tecnico_marketing.md)
 
 ---
@@ -164,6 +188,11 @@ Con esa configuración, el resto del sistema trabaja solo:
 | 🩺 **Salud Ocupacional (PsyMed)** | Catálogo de servicios configurable, informes psicotécnicos por nivel de responsabilidad y psicofísicos para portación de armas. |
 | 💼 **Facturación Fiscal ARCA** | Facturas A/B y notas de crédito vinculadas al remito autorizado, CAE en línea, QR oficial y validación de CUIT contra el padrón. |
 
+<p align="center">
+  <img src="assets/demo/central-de-comando.png" alt="Central de Comando de SGH-V1, frente Personal: semáforo de vigencias, embudo de la habilitación, dotación por función y matriz de habilitación territorial" width="760" style="max-width: 100%; border-radius: 10px; border: 1px solid #e2e8f0;" /><br>
+  <sub>Central de Comando, frente Personal: semáforo de vigencias, embudo de la habilitación, dotación por función y habilitación por jurisdicción.</sub>
+</p>
+
 ---
 
 ## 🔒 Seguridad, privacidad y soberanía de datos
@@ -171,7 +200,17 @@ Con esa configuración, el resto del sistema trabaja solo:
 - **100% self-hosted:** corre en servidor dedicado, sin depender de nubes públicas de terceros. Legajos médicos, registros balísticos y credenciales fiscales quedan bajo control del cliente.
 - **Aislamiento por empresa (multi-tenant)** y permisos por matriz de roles (RBAC).
 - **Auditoría forense inmutable:** trazabilidad completa de cada cambio.
-- **Cláusula Zero-Leak (NDA):** la información de clientes se gestiona bajo estricta confidencialidad. Este showcase no expone nombres de clientes, URLs internas, correos corporativos ni credenciales; todo dato operativo mostrado es ilustrativo.
+- **Cláusula Zero-Leak (NDA):** la información de clientes se gestiona bajo estricta confidencialidad. Este showcase no expone nombres de clientes, URLs internas, correos corporativos ni credenciales; todo dato operativo mostrado es ilustrativo. Las capturas son del sistema en funcionamiento, con nombres, documentos y empresas reemplazados por datos ficticios.
+
+<p align="center">
+  <img src="assets/demo/matriz-privilegios.jpg" alt="Matriz de privilegios de SGH-V1: permisos por módulo, solapa y acción para un usuario del portal de empresa" width="760" style="max-width: 100%; border-radius: 10px; border: 1px solid #e2e8f0;" /><br>
+  <sub>Matriz de privilegios: permisos por módulo, solapa y acción (ver, editar, crear, eliminar). Un usuario del portal de empresa solo ve los datos de su propia entidad.</sub>
+</p>
+
+<p align="center">
+  <img src="assets/demo/telemetria-gestion.png" alt="Telemetría de Gestión de SGH-V1: consola de auditoría con sesiones, cambios de negocio, exportaciones y eventos de seguridad" width="760" style="max-width: 100%; border-radius: 10px; border: 1px solid #e2e8f0;" /><br>
+  <sub>Telemetría de Gestión: sesiones, cambios de negocio, exportaciones masivas y eventos de seguridad, con 90 días de retención.</sub>
+</p>
 
 ### 🛡️ Integridad operativa y de gestión: *practicamos el rigor que exigimos*
 

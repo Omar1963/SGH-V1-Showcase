@@ -3,8 +3,8 @@
 title: "SGH-V1 · Gobierno operativo y cumplimiento regulatorio"
 description: "Plataforma para industrias fiscalizadas: habilitaciones, credenciales y vencimientos de empresas y su personal, en todas las jurisdicciones donde operan, con V.I.G.I.A., el motor de IA que avisa antes de que algo venza."
 lang: es-AR
-url: "https://omar1963.github.io"
-baseurl: "/SGH-V1-Showcase"
+url: "https://omardom-sd.github.io"
+baseurl: "/sgh-v1"
 defaults:
   - scope:
       path: ""
